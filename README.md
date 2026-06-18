@@ -79,5 +79,11 @@ http://localhost:5173
 ## Notes
 
 - The backend requires `DATABASE_URL` to be set before startup.
-- The frontend currently points to the deployed Railway backend in `pet-welfare-ui/src/App.jsx`.
+- The frontend currently points to a Railway backend URL in `pet-welfare-ui/src/App.jsx`; if that free-tier service is paused or deleted, run the backend locally and update the frontend API base URL for testing.
 - SQL files are intentionally tracked in this repo so the database can be recreated from source.
+
+## Optional Portfolio Additions
+
+- Add screenshots of the animal list, add/delete workflow, species summary, welfare follow-up query, and adoption statistics query.
+- Add exported ER diagram and relational schema images alongside the final report.
+- Add a short note if the live Vercel/Railway demo is unavailable because the services are paused or deleted.
